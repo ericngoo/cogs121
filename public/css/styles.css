@@ -1,0 +1,91 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+.landing {
+	background-color: #212529;
+	display: flex;
+	height: 75vh;
+	padding: 2rem;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.landing h1 {
+	font-weight: bold;
+	font-size: 5rem;
+}
+.landing h2 {
+	font-size: 3rem;
+}
+
+.landing p {
+	font-size: 1.5rem;
+}
+
+.leftLanding {
+	width: 50%;
+	
+}
+
+.rightLanding {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rightLanding img {
+	max-width: 70%;	
+}
+
+.container h1 {
+	font-size: 5rem;
+	color: #111111;
+	font-weight: bold;
+}
+
+.content p{
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+.content li{
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+.content h2 {
+	font-weight: bold;
+}
+
+.content {
+	color: #111111;
+	padding: 1rem 0;
+}
+
+.before-after {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5rem 0;
+}
+
+.before-after div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.before-after img {
+	max-width: 70%;
+}
