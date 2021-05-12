@@ -1,14 +1,3 @@
-/* applies to anything of class "example-class-selector" */
-.example-class-selector {
-	margin-top: 2em;
-}
-
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
-}
-
 .landing {
 	background-color: #212529;
 	display: flex;
@@ -45,6 +34,11 @@
 
 .rightLanding img {
 	max-width: 70%;	
+}
+
+.container {
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 .container h1 {
@@ -88,4 +82,12 @@
 
 .before-after img {
 	max-width: 70%;
+}
+
+.section_title {
+	color: #536162;
+}
+
+.accent_header {
+	color: #006bb3;
 }
